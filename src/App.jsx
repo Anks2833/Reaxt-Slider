@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import Card from './Components/Card';
 import SimpleImageSlider from "react-simple-image-slider";
+import './App.css'
 
 function App() {
 
@@ -15,8 +15,7 @@ function App() {
   ];
 
   return (
-      <div className='w-full h-screen bg-zinc-800 flex items-center justify-center'>
-        {/* <Card/> */}
+      <div>
 
         <SimpleImageSlider
         width={900}
